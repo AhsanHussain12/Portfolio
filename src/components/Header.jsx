@@ -75,7 +75,7 @@ const Header = () => {
               Let's Talk
             </Link>
             <a
-              href="/Ahsan Hussain Resume.pdf"
+              href="/AhsanHussainResume.pdf"
               download
               className="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-all duration-300"
             >

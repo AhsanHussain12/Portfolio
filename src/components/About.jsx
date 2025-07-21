@@ -29,7 +29,7 @@ const About = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
               <motion.a
-                href="/Ahsan Hussain Resume.pdf"
+                href="/AhsanHussainResume.pdf"
                 download
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
