@@ -67,12 +67,21 @@ const Header = () => {
             </ul>
           </nav>
 
-          <Link
-            to="/contact"
-            className="hidden md:inline-flex items-center px-4 py-2 border border-blue-400 text-blue-400 rounded-full hover:bg-blue-400 hover:text-white transition-all duration-300"
-          >
-            Let's Talk
-          </Link>
+          <div className="hidden md:flex items-center gap-2">
+            <Link
+              to="/contact"
+              className="inline-flex items-center px-4 py-2 border border-blue-400 text-blue-400 rounded-full hover:bg-blue-400 hover:text-white transition-all duration-300"
+            >
+              Let's Talk
+            </Link>
+            <a
+              href="/Ahsan Hussain Resume.pdf"
+              download
+              className="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-all duration-300"
+            >
+              Download Resume
+            </a>
+          </div>
 
           <button className="md:hidden text-white">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
