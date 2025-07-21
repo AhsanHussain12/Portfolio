@@ -29,12 +29,13 @@ const About = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
               <motion.a
-                href="#" // You can add your resume link here
+                href="/Resume.pdf"
+                download
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center justify-center px-6 py-3 bg-blue-500 text-white rounded-full font-medium hover:bg-blue-600 transition-colors"
               >
-                View Resume
+                Download Resume
               </motion.a>
               <motion.div
                 initial={{ opacity: 0 }}
